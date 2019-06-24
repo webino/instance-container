@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20510245ba95d79bd3f5783b5cd0d05e",
+    "content-hash": "e889dbc20807e6923eb27af6c9a6452f",
     "packages": [
         {
             "name": "psr/container",
@@ -57,16 +57,16 @@
         },
         {
             "name": "webino/event-emitter",
-            "version": "1.1.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webino/event-emitter.git",
-                "reference": "24fb290c90daed0ea79370ebde39e70813d0157e"
+                "reference": "906a5f703d50ebdf4d46293c96a56f98afea248b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webino/event-emitter/zipball/24fb290c90daed0ea79370ebde39e70813d0157e",
-                "reference": "24fb290c90daed0ea79370ebde39e70813d0157e",
+                "url": "https://api.github.com/repos/webino/event-emitter/zipball/906a5f703d50ebdf4d46293c96a56f98afea248b",
+                "reference": "906a5f703d50ebdf4d46293c96a56f98afea248b",
                 "shasum": ""
             },
             "require": {
@@ -98,7 +98,7 @@
                 }
             ],
             "description": "Event Emitter implementation.",
-            "time": "2019-06-21T18:52:52+00:00"
+            "time": "2019-06-24T14:05:22+00:00"
         },
         {
             "name": "webino/exceptions",
@@ -1515,7 +1515,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "webino/event-emitter": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
