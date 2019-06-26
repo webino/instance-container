@@ -10,9 +10,10 @@
  * @license     BSD-3-Clause
  */
 
+namespace Webino;
+
 use Tester\Assert;
-use Webino\CreateInstanceEvent;
-use Webino\InstanceContainer;
+use Tester\Environment;
 
 class TestEventInstance
 {
@@ -20,7 +21,7 @@ class TestEventInstance
 }
 
 
-Tester\Environment::setup();
+Environment::setup();
 
 $instances = new InstanceContainer;
 

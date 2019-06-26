@@ -10,10 +10,10 @@
  * @license     BSD-3-Clause
  */
 
+namespace Webino;
+
 use Tester\Assert;
-use Webino\CreateInstanceEventInterface;
-use Webino\InstanceContainer;
-use Webino\InstanceFactoryInterface;
+use Tester\Environment;
 
 class TestInstanceFactory implements InstanceFactoryInterface
 {
@@ -33,7 +33,7 @@ class TestFactoryInstance
 }
 
 
-Tester\Environment::setup();
+Environment::setup();
 
 $instances = new InstanceContainer;
 

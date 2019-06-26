@@ -10,8 +10,10 @@
  * @license     BSD-3-Clause
  */
 
+namespace Webino;
+
 use Tester\Assert;
-use Webino\InstanceContainer;
+use Tester\Environment;
 
 interface TestInterfaceInstanceInterface
 {
@@ -24,7 +26,7 @@ class TestInterfaceInstance implements TestInterfaceInstanceInterface
 }
 
 
-Tester\Environment::setup();
+Environment::setup();
 
 $instances = new InstanceContainer;
 

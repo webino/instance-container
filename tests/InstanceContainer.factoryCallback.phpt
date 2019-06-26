@@ -10,10 +10,10 @@
  * @license     BSD-3-Clause
  */
 
+namespace Webino;
+
 use Tester\Assert;
-use Webino\CreateInstanceEventInterface;
-use Webino\Factory\CallbackFactory;
-use Webino\InstanceContainer;
+use Tester\Environment;
 
 class TestFactoryCallbackInstance
 {
@@ -23,7 +23,7 @@ class TestFactoryCallbackInstance
 }
 
 
-Tester\Environment::setup();
+Environment::setup();
 
 $instances = new InstanceContainer;
 
